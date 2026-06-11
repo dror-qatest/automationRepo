@@ -1,0 +1,11 @@
+{
+  "name": "automation-repo",
+  "version": "1.0.0",
+  "description": "E2E test automation with Cypress",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
