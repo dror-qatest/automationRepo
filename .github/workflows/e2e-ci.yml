@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npx cypress run
+        run: npx cypress run --record --key 96224ee4-f45d-4ece-9c89-6deeb99ca598
 
       - name: Upload screenshots on failure
         uses: actions/upload-artifact@v4
